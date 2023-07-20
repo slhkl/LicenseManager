@@ -1,6 +1,6 @@
 ﻿using Utils;
 
-if (!Licenses.Instance.IsLicensed())
+if (!LicenseManager.Instance.IsLicensed())
 {
     Console.WriteLine("license key not entered or entered key is not valid");
     Console.WriteLine("You must enter a license key to continue using the product.");
@@ -9,7 +9,7 @@ if (!Licenses.Instance.IsLicensed())
     do
     {
         string licenseKey = Console.ReadLine();
-        if (Licenses.Instance.IsValid(licenseKey))
+        if (LicenseManager.Instance.IsValid(licenseKey))
         {
             Console.WriteLine("The application has been successfully licensed.");
             isContinue = false;
