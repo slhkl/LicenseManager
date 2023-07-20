@@ -1,6 +1,6 @@
 ﻿using Utils.Helpers;
 
-namespace Utils
+namespace Business
 {
     public class LicenseManager
     {
