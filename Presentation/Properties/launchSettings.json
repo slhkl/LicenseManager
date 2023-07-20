@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Presentation": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "LicenseKey": ""
+      }
+    }
+  }
+}
